@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poopins",sans-serif;
+    background-color: rgb(117, 250, 175);
+}
+.BOX1{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(103, 230, 158);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 0 -10px 10px rgba(74, 245, 148, 0.2),0 15px 15px rgba(74, 245, 148,0.1),0 -10px -10px 10px rgba(74, 245, 148,0.2),0 15px 15px 15px rgba(74, 245, 148,0.1),0 -10px 10px rgba(74, 245, 148,0.2),0 15px 15px rgba(74, 245, 148,0.1),0 -10px -10px 10px rgba(74, 245, 148,0.2),0 15px 15px 15px rgba(74, 245, 148,0.1);
+}
+h2{
+    color: black;
+    font-weight: 800;
+    letter-spacing: .5;
+    text-align: center;
+    margin-top: 20px;
+}
+#google{
+    width: 70%;
+    height: 10%;
+    background-color: rgb(245, 11, 58);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 48px;
+    border-color: none;
+    transition: .5s;
+}
+#google:hover{
+    cursor: pointer;
+}
+i{
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 900;
+}
+#or{
+    width: 15%;
+    height: 7.5%;
+    color: black;
+    margin-top: 20px;
+    margin-left: 42%;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+}
+
+label{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 20px;
+   font-weight: 600;
+}
+input{
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    height: 8%;
+    border-radius: 10px;
+    border: none;
+}
+input:hover{
+    cursor: text;
+}
+#sign{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 8%;
+    border: none;
+    background-color: rgb(4, 211, 94);
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+#sign:hover{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+}
+.footer{
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+span{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+}
+#login{
+    color: rgb(5, 5, 255);
+    transition: .5s;
+}
+#login:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
